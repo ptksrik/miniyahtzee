@@ -1,0 +1,84 @@
+import { StyleSheet } from 'react-native';
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'space-between',
+    backgroundColor: '#fff'
+  },
+  header: {
+    marginTop: 30,
+    backgroundColor: 'skyblue',
+    flexDirection: 'row'
+  },
+  footer: {
+    marginTop: 20,
+    backgroundColor: 'skyblue',
+    flexDirection: 'row'
+  },
+  title: {
+    textTransform: 'uppercase',
+    color: '#fff',
+    fontWeight: 'bold',
+    flex: 1,
+    fontSize: 23,
+    textAlign: 'center',
+    margin: 10,
+  },
+  author: {
+    color: '#fff',
+    fontWeight: 'bold',
+    flex: 1,
+    fontSize: 15,
+    textAlign: 'center',
+    margin: 10,
+  },
+  gameboard: {
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
+  gameinfo: {
+    marginVertical: 8,
+    backgroundColor: '#fff',
+    textAlign: 'center',
+    justifyContent: 'center',
+    fontSize: 18,
+  },
+  item: {
+    margin: 15,
+    padding: 5
+  },
+  flex: {
+    flexDirection: 'row'
+  },
+  button: {
+    margin: 30,
+    flexDirection: 'row',
+    padding: 10,
+    backgroundColor: '#73CED6',
+    width: 150,
+    borderRadius: 15,
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+  buttonText: {
+    color: '#2B2B52',
+    fontSize: 20
+  },
+  disabled: {
+    backgroundColor: '#A8B1B2',
+  },
+  spotCountsContainer: {
+    alignItems: 'center',
+  },
+  spotCountPoints: {
+    textAlign: 'center',
+    fontSize: 12,
+  },
+  points: {
+    fontSize: 24,
+    textAlign: 'center',
+  },
+
+});
